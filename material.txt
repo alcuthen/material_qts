@@ -6,13 +6,34 @@ Locators and CSS_SELECTOR
 Site para execução de teste de software
 https://www.saucedemo.com/v1/
 
-tag.classname[type='value']
-input.form_input[data-test='username']
+Locators 
+--------
+
+id
+    id="username"
+
+name 
+    name="user"
+
+class
+    class="input-field"
+
+tag 
+    input
 
 CSS_SELECTOR
+------------
+    input#user-name
 
-full XPATH
-/html/body/div[2]/div[1]/div/div/form/input[1]
 
-relative XPATH
-//*[@id="user-name"]
+    tag.classname[type='value']
+
+
+    input.form_input[data-test='username']
+
+
+    full XPATH
+    /html/body/div[2]/div[1]/div/div/form/input[1]
+
+    relative XPATH
+    //*[@id="user-name"]
