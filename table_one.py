@@ -14,6 +14,7 @@ title_page: str = browser.title
 # Maximizar a página web
 browser.fullscreen_window()
 time.sleep(2)
+browser.minimize_window()
 
 # Abrir outra página
 browser.get("https://www.ibm.com")
@@ -21,3 +22,11 @@ time.sleep(2)
 
 # Retornar a página anterior
 browser.back()
+
+# Real title is "Nova guia"
+if (title_page == "Amazon"):
+    print("Tralalá")
+elif (title_page == "Google"):
+    print("You are in Google")
+else:
+    print("I don't know where I'm")
