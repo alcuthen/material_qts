@@ -37,3 +37,26 @@ CSS_SELECTOR
 
     relative XPATH
     //*[@id="user-name"]
+
+
+-------------
+Criar ambiente virtual para desenvolvimento
+
+Seguir pep8 para declaração de variáveis e nomes de arquivos
+mkdir nome_do_arquivo
+
+cd nome_do_arquivo
+
+python -m venv venv_test
+
+Ativar o ambiente virtual
+path do venv
+.\venv_test\Scripts\activate
+
+instalar selenium
+pip install selenium
+python -m pip install selenium
+
+Ao fim da tarefa desativar a venv
+
+deactivate
