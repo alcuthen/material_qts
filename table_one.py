@@ -2,7 +2,6 @@ import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
-
 browser: object = webdriver.Chrome() 
 
 browser.get("https://www.saucedemo.com/")
