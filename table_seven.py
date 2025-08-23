@@ -10,7 +10,7 @@ from credential import url, pwd, log_user #biblioteca criada.
 browser: object = webdriver.Chrome() 
 browser.get(url)
 
-def acess():
+def acess(browser):
        
     title_page: str = browser.title
 
@@ -41,7 +41,7 @@ def acess():
 
 try:
     if __name__ == "__main__":
-        acess()
+        acess(browser)
 
 except:
     print("O Rauni não arrumou a rede ainda")
