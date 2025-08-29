@@ -13,5 +13,5 @@ assert browser.find_element(By.ID, "user-name"), 'Retorno de erro'
  
 
 
-
+test = browser.find_element(By.ID,"user-name")
 
